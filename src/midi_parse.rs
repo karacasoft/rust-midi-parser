@@ -13,7 +13,7 @@ use track::TrackError;
 pub struct MidiFileHeader {
     pub length: u32,
     pub format: u16,
-    n_tracks: u16,
+    pub n_tracks: u16,
     pub division: i16,
 }
 
